@@ -1,0 +1,6 @@
+@GIDAPI_HostAddress = http://localhost:5106
+
+GET {{GIDAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
