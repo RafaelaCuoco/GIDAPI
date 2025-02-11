@@ -57,7 +57,7 @@ public class MySqlDatabase : IDisposable
         if (_connection != null)
         {
             _connection.Dispose();
-            _connection = null;
+            //_connection = null;
         }
     }
 }
