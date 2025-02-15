@@ -11,10 +11,7 @@ namespace GIDAPI.Controllers.Comum
     {
         private readonly MySqlDatabase _db;
 
-        public EstadosController(MySqlDatabase db)
-        {
-            _db = db;
-        }
+        public EstadosController(MySqlDatabase db) => _db = db;
 
         // Rota padrão para obter todos os estados
         [HttpGet(Name = "Estados")]

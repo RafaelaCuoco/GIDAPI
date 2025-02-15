@@ -10,10 +10,7 @@ namespace GIAPI.Controllers.Comum
     {
         private readonly MySqlDatabase _db;
 
-        public CidadesController(MySqlDatabase db)
-        {
-            _db = db;
-        }
+        public CidadesController(MySqlDatabase db) => _db = db;
 
         // Rota padrão para obter todos os Cidades
         [HttpGet(Name = "Cidades")]
